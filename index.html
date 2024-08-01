@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+        <link rel="stylesheet" href="src/style/reset.css">
+        <link rel="stylesheet" href="src/style/variables.css">
+        <link rel="stylesheet" href="src/style/style.css">
+    <title>Formulário com Validação</title>
+    <style></style>
+</head>
+<body>
+    <main class="container">
+        <div class="informacoes">
+            <h1 class="informacoes-title">FICOU COM DÚVIDA? <br>
+                NOS MANDE UMA MENSAGEM!</h1>
+            <p class="informacoes-text">caso tenha ficado com qualquer dúvida basta nos mandar uma mensagem e entraremos em contato em menos de 24h.</p>
+        </div>
+        <form method="GET" action="index.html" class="formulario">
+                <input class="input-form" type="text" name="nome" id="nome" placeholder="Nome completo *">
+                <p class="paragrafo-obrigatorio">campo obrigatório</p>
+                <input class="input-form" type="email" name="email" id="email" placeholder="Email *">
+                <p class="paragrafo-obrigatorio">campo obrigatório</p>
+                <input class="input-form" type="text" name="telefone" id="telefone" placeholder="Telefone *">
+                <p class="paragrafo-obrigatorio">campo obrigatório</p>
+                <input class="input-form mensagem" type="text" name="mensagem" id="mensagem" placeholder="Mensagem *">
+                <p class="paragrafo-obrigatorio">campo obrigatório</p>
+                <p class="formulario-text">*campos obrigatórios</p>
+                <button type="submit" class="btn-enviar">Enviar</button>
+        </form>
+    </main>
+    <script src="src/script/index.js"></script>
+</body>
+</html>
