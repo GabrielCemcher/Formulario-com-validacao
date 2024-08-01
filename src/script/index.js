@@ -3,7 +3,7 @@ const enviarForm = document.querySelector('.btn-enviar');
 const paragrafoObrigatorio = document.querySelectorAll('.paragrafo-obrigatorio');
 
 
-enviarForm.addEventListener('click', () =>{
+enviarForm.addEventListener('click', (event) =>{
     event.preventDefault();
     
     inputsForm.forEach((inputsForm, index) => {
