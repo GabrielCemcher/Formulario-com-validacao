@@ -1,0 +1,41 @@
+@media (max-width: 375px){
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .informacoes {
+        width: 100px;
+        margin-bottom: 20px;
+        padding: 0px 10px;
+        margin: 0;
+    }
+
+    .informacoes .informacoes-title {
+        font-size: 18px;
+        width: 100%;
+    }
+
+    .informacoes .informacoes-text {
+        font-size: 15px;
+    }
+
+    .formulario {
+       margin-top: 30px;
+    }
+}
+
+@media(max-width: 768px) {
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .informacoes .informacoes-title {
+        margin-bottom: 15px;
+    }
+
+    .formulario{
+        margin-top: 50px;
+    }
+}

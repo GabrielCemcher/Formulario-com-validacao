@@ -49,6 +49,7 @@ body {
     color: #A8A8A8;
 }
 
+
 .input-form:not(:first-child) {
     margin-top: 14px;
 }
@@ -67,8 +68,6 @@ body {
 
 .input-form.mensagem {
     height: 100px;
-    padding-bottom: 70px;
-    
 }
 
 .formulario-text {
